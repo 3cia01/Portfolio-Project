@@ -138,14 +138,14 @@ nav li {
   line-height: 42px;
   margin-left: 15px;
 }
-nav a {
+.nav-link a {
   text-decoration: none;
   color: #272142;
   font-weight: bold;
   transition: all ease-in-out;
 }
-nav a:hover,
-nav li.active a {
+.navbar-brand a:hover,
+.navbar-brand li.active a {
   color: var(--branding-color);
 }
 
