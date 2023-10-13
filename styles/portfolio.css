@@ -32,6 +32,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -124,15 +128,15 @@ p {
   margin-top: -8px;
   margin-left: 35px;
 }
-nav {
+.nav-link {
   padding: 20px 0;
 }
 
-nav ul {
+.nav-link ul {
   margin: 0;
   padding: 0;
 }
-nav li {
+.nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
@@ -155,7 +159,7 @@ footer {
 
 footer .contact-box {
   background: var(--secondary-color);
-  padding: 20px 60px;
+  padding: 20px 80px;
   border-radius: 10px;
 }
 
@@ -196,6 +200,9 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
+  h4 {
+    font-size: 26px;
+  }
 
   .hero {
     padding: 80px 20px;
@@ -209,5 +216,8 @@ footer .social-links a:hover {
   .project-discription {
     padding: 0;
     text-align: center;
+  }
+  .nav li {
+    line-height: 18px;
   }
 }
