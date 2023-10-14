@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interested in building designs that are unique but functional."
+    />
+    <title>About- Patriia Monye</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,12 +30,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>About Me</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html"
+        <a class="navbar-brand" href="index.html" title="Homepage"
           ><img
             src="images/logo.png"
             class="logo d-none d-md-block"
@@ -54,16 +58,31 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item mx-2">
-              <a aria-current="page" class="nav-link" href="index.html">Home</a>
+              <a
+                aria-current="page"
+                class="nav-link"
+                href="index.html"
+                title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About</a>
+              <a
+                class="nav-link active"
+                href="about.html"
+                title="About Patricia"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="work.html">Work</a>
+              <a class="nav-link" href="work.html" title="Patricias' Work"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html" title="Contact Patricia"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -83,31 +102,61 @@
               everything is well explained. Homework and deadlines also helps to
               keep you focused.
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col d-lg-6">
-          <img src="images/pat.png" class="img-fluid" alt="" width="60%" />
+          <img src="images/pat.png" class="img-fluid" alt="" width="80%" />
         </div>
       </div>
-      <footer class="contact-box">
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="contact.html" class="btn btn-branding mt-3">
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:monyepatricia1@gmail.com"
+            class="email-link"
+            title="E-mail Patricia"
+            >monyepatricia1@gmail.com</a
+          >
+        </div>
         <div class="social-links d-flex justify-content-center mb-5">
           <a
             href="https://www.linkedin.com/in/patricia Monye "
             target="_blank"
-            title="LinkedIn profile"
+            title="LinkedIn Profile"
             ><i class="fa-brands fa-linkedin"></i>
           </a>
           <a
             href="http://Www.instagram.com/3cia_01"
             target="_blank"
-            title="Instagram profile"
+            title="Instagram Profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://github.com/3cia01" target="_blank" title="Github URl"
+          <a
+            href="https://github.com/3cia01"
+            target="_blank"
+            title="Github Profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          👉🏻This project was coded by Patricia Monye and it is
+          <a
+            href="https://github.com/3cia01/portfolio-project"
+            target="_blank"
+          ></a>
+          open-sourced
+        </p>
       </footer>
     </div>
   </body>
